@@ -1,0 +1,1 @@
+ffmpeg -fflags +igndts -hide_banner -i https://mcdn.daserste.de/daserste/de/master.m3u8 -c copy -f flv rtmp://127.0.0.1/live/stream
